@@ -10,6 +10,9 @@ packages = [{include = "richardhaythorn"}]
 python = "^3.11"
 solara = "^1.16.3"
 solara-enterprise = {extras = ["ssg"], version = "^1.16.3"}
+itsdangerous = "^2.1.2"
+authlib = "^1.2.0"
+httpx = "^0.24.1"
 
 
 [build-system]

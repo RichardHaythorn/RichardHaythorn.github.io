@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "richardhaythorn-github-io"
+version = "0.1.0"
+description = ""
+authors = ["RichardHaythorn <richardhaythornthwaite@hotmail.co.uk>"]
+readme = "README.md"
+packages = [{include = "richardhaythorn"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+solara = "^1.16.3"
+solara-enterprise = {extras = ["ssg"], version = "^1.16.3"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
